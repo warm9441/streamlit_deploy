@@ -21,7 +21,6 @@ elif select_date=='05/01/2019':
 import pandas as pd
 
 DATE_TIME = "timestart"
-st.cache
 def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows)
     lowercase = lambda x: str(x).lower()
